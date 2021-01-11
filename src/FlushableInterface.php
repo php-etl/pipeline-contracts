@@ -2,7 +2,7 @@
 
 namespace Kiboko\Contract\Pipeline;
 
-use Kiboko\Contract\ETL\Bucket\ResultBucketInterface;
+use Kiboko\Contract\Bucket\ResultBucketInterface;
 
 interface FlushableInterface
 {
