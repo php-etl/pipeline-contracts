@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kiboko\\Contract\\ETL\\Pipeline\\": "src/"
+            "Kiboko\\Contract\\Pipeline\\": "src/"
         }
     },
     "extra": {

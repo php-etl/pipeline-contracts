@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiboko\Contract\ETL\Pipeline;
+namespace Kiboko\Contract\Pipeline;
 
 interface PipelineInterface extends
     ExtractingInterface,
