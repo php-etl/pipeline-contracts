@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Kiboko\Contract\ETL\Pipeline;
+namespace Kiboko\Contract\Pipeline;
 
 interface StatefulInterface
 {
