@@ -7,6 +7,6 @@ interface ExtractingInterface
     public function extract(
         ExtractorInterface $extractor,
         RejectionInterface $rejection,
-        StatefulInterface $state,
+        StateInterface $state,
     ): ExtractingInterface;
 }

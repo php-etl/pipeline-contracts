@@ -7,6 +7,6 @@ interface LoadingInterface
     public function load(
         LoaderInterface $loader,
         RejectionInterface $rejection,
-        StatefulInterface $state,
+        StateInterface $state,
     ): LoadingInterface;
 }

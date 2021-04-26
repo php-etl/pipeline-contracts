@@ -7,6 +7,6 @@ interface TransformingInterface
     public function transform(
         TransformerInterface $transformer,
         RejectionInterface $rejection,
-        StatefulInterface $state,
+        StateInterface $state,
     ): TransformingInterface;
 }
