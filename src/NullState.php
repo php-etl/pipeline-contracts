@@ -2,8 +2,6 @@
 
 namespace Kiboko\Contract\Pipeline;
 
-use Kiboko\Contract\Bucket\ResultBucketInterface;
-
 final class NullState implements StateInterface
 {
     public function initialize(int $start = 0): void
@@ -11,17 +9,12 @@ final class NullState implements StateInterface
         // NOOP
     }
 
-    public function increment(int $step = 1): void
+    public function accept(int $step = 1): void
     {
         // NOOP
     }
 
     public function reject(int $step = 1): void
-    {
-        // NOOP
-    }
-
-    public function incrementFromBucket(ResultBucketInterface $bucket): void
     {
         // NOOP
     }
