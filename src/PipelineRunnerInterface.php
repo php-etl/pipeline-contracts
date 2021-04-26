@@ -9,5 +9,10 @@ interface PipelineRunnerInterface
      * @param \Generator<array|object> $async
      * @return \Iterator<array|object>
      */
-    public function run(\Iterator $source, \Generator $async): \Iterator;
+    public function run(
+        \Iterator $source,
+        \Generator $async,
+        RejectionInterface $rejection,
+        StateInterface $state,
+    ): \Iterator;
 }

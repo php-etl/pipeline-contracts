@@ -2,7 +2,8 @@
 
 namespace Kiboko\Contract\Pipeline;
 
-interface StatefulInterface
+interface StateInterface
 {
+    public function initialize(int $start = 0): void;
     public function increment(int $step = 1): void;
 }
