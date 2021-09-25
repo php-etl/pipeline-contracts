@@ -9,6 +9,7 @@ final class NullRejection implements RejectionInterface
         // NOOP
     }
 
+    /** @param non-empty-array<mixed>|object $rejection */
     public function reject(object|array $rejection, ?\Throwable $exception = null): void
     {
         // NOOP
