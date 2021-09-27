@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec7da9ab3c8d16d735d1a9c9509d3339",
+    "content-hash": "641b4bbc28e2baed99620f8d5fe2c5fa",
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
-                "reference": "c2d2df6eaca0f391ec275cd797b2e7cfa5c24fc5"
+                "reference": "b5d682329b7f8ff66e0987f75fad190607c10ddf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/c2d2df6eaca0f391ec275cd797b2e7cfa5c24fc5",
-                "reference": "c2d2df6eaca0f391ec275cd797b2e7cfa5c24fc5",
+                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/b5d682329b7f8ff66e0987f75fad190607c10ddf",
+                "reference": "b5d682329b7f8ff66e0987f75fad190607c10ddf",
                 "shasum": ""
             },
             "require": {
@@ -48,16 +48,16 @@
                     "homepage": "http://kiboko.fr"
                 },
                 {
-                    "name": "Grégory Planchat",
+                    "name": "Grégory Planchatn rules",
                     "email": "gregory@kiboko.fr"
                 }
             ],
             "description": "This library describes contracts for the data-interchange buckets.",
             "support": {
                 "issues": "https://github.com/php-etl/bucket-contracts/issues",
-                "source": "https://github.com/php-etl/bucket-contracts/tree/master"
+                "source": "https://github.com/php-etl/bucket-contracts/tree/v0.1.0"
             },
-            "time": "2021-01-11T13:21:08+00:00"
+            "time": "2021-09-25T16:53:47+00:00"
         }
     ],
     "packages-dev": [],
@@ -70,5 +70,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
