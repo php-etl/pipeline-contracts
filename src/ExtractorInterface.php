@@ -10,7 +10,7 @@ interface ExtractorInterface
     /**
      * Extract data from the given source.
      *
-     * @return iterable<ResultBucketInterface<Type>>
+     * @return iterable<ResultBucketInterface<null|Type>>
      */
     public function extract(): iterable;
 }
