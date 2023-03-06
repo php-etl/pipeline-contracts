@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Kiboko\Contract\Pipeline;
 
 use Kiboko\Contract\Bucket\ResultBucketInterface;
@@ -10,7 +12,7 @@ interface LoaderInterface
     /**
      * Loads data in the given sink.
      *
-     * @return \Generator<mixed, ResultBucketInterface<Type>|ResultBucketInterface<void>, null|Type, void>
+     * @return \Generator<mixed, ResultBucketInterface<Type>|ResultBucketInterface<void>, Type|null, void>
      */
     public function load(): \Generator;
 }
