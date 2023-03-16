@@ -6,5 +6,5 @@ namespace Kiboko\Contract\Pipeline;
 
 interface SchedulingInterface
 {
-    public function job(RunnableInterface $job): self;
+    public function job(RunnableInterface|\Kiboko\Contract\Action\RunnableInterface $job): self;
 }
