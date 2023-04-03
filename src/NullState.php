@@ -6,7 +6,7 @@ namespace Kiboko\Contract\Pipeline;
 
 final class NullState implements StateInterface
 {
-    public function initialize(): void
+    public function initialize(int $start = 0): void
     {
         // NOOP
     }
