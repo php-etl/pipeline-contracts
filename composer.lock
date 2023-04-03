@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
-                "reference": "f9a3ea53e4d0c426f8565c58369743fbfc57c425"
+                "reference": "20e5a8aa8f814235443bbf1b1f52bf51cf97ed89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/f9a3ea53e4d0c426f8565c58369743fbfc57c425",
-                "reference": "f9a3ea53e4d0c426f8565c58369743fbfc57c425",
+                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/20e5a8aa8f814235443bbf1b1f52bf51cf97ed89",
+                "reference": "20e5a8aa8f814235443bbf1b1f52bf51cf97ed89",
                 "shasum": ""
             },
             "require": {
@@ -57,9 +57,9 @@
             "description": "This library describes contracts for the data-interchange buckets.",
             "support": {
                 "issues": "https://github.com/php-etl/bucket-contracts/issues",
-                "source": "https://github.com/php-etl/bucket-contracts/tree/v0.2.0"
+                "source": "https://github.com/php-etl/bucket-contracts/tree/main"
             },
-            "time": "2023-04-03T09:36:12+00:00"
+            "time": "2023-04-03T09:57:27+00:00"
         }
     ],
     "packages-dev": [
