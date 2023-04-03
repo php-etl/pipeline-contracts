@@ -1,10 +1,12 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Kiboko\Contract\Pipeline;
 
 final class NullState implements StateInterface
 {
-    public function initialize(): void
+    public function initialize(int $start = 0): void
     {
         // NOOP
     }
