@@ -16,11 +16,10 @@
     ],
     "require": {
         "php": "^8.2",
-        "php-etl/bucket-contracts": "^0.2@dev"
+        "php-etl/bucket-contracts": "^0.2"
     },
     "require-dev": {
         "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^9.5 || ^10.0",
         "friendsofphp/php-cs-fixer": "^3.0",
         "infection/infection": "^0.26.18",
         "rector/rector": "^0.15"
@@ -38,8 +37,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.4.x-dev",
-            "dev-feature/qualityflow-improvments": "0.4.x-dev"
+            "dev-main": "0.3.x-dev"
         }
     }
 }
