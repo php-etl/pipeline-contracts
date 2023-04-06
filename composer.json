@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "php-etl/bucket-contracts": "^0.2"
+        "php-etl/bucket-contracts": "0.2.0"
     },
     "require-dev": {
         "phpstan/phpstan": "^1.10",
