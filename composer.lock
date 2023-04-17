@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d801d34172bb72084a78fcf55676505",
+    "content-hash": "eb7d4165a314b52d2283e13780a65afc",
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
-            "version": "v0.2.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
@@ -28,6 +28,7 @@
                 "phpstan/phpstan": "^1.10",
                 "rector/rector": "^0.15"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -534,16 +535,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.x-dev",
+            "version": "1.11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ccabc69e97c8d6e866eee5ff8b567aee82643373"
+                "reference": "9fff1f6b8f3a3f5e1d40542f2950e3c0f6a91c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ccabc69e97c8d6e866eee5ff8b567aee82643373",
-                "reference": "ccabc69e97c8d6e866eee5ff8b567aee82643373",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9fff1f6b8f3a3f5e1d40542f2950e3c0f6a91c54",
+                "reference": "9fff1f6b8f3a3f5e1d40542f2950e3c0f6a91c54",
                 "shasum": ""
             },
             "require": {
@@ -593,7 +594,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-06T09:44:51+00:00"
+            "time": "2023-04-17T09:43:16+00:00"
         },
         {
             "name": "psr/cache",
@@ -812,17 +813,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "5a5da62b5c1efeaae6f20f0d615bec78f6988996"
+                "reference": "03e48b83b11c46744cb850c6df800b3efbf672f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/5a5da62b5c1efeaae6f20f0d615bec78f6988996",
-                "reference": "5a5da62b5c1efeaae6f20f0d615bec78f6988996",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/03e48b83b11c46744cb850c6df800b3efbf672f5",
+                "reference": "03e48b83b11c46744cb850c6df800b3efbf672f5",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.10.1"
+                "phpstan/phpstan": "^1.10.13"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -866,7 +867,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-06T09:24:11+00:00"
+            "time": "2023-04-17T12:58:24+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -942,12 +943,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "22139f9c425d2be619ccbf1bdbabbd67d1060c50"
+                "reference": "4fabdd5541927ce0d3f593616a798148192281c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/22139f9c425d2be619ccbf1bdbabbd67d1060c50",
-                "reference": "22139f9c425d2be619ccbf1bdbabbd67d1060c50",
+                "url": "https://api.github.com/repos/symfony/console/zipball/4fabdd5541927ce0d3f593616a798148192281c3",
+                "reference": "4fabdd5541927ce0d3f593616a798148192281c3",
                 "shasum": ""
             },
             "require": {
@@ -1030,7 +1031,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-04T06:17:48+00:00"
+            "time": "2023-04-14T16:25:38+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
