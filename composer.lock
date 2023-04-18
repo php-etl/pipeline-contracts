@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb7d4165a314b52d2283e13780a65afc",
+    "content-hash": "559443d233ab6bfe5d7bc41879f4b293",
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
@@ -60,6 +60,59 @@
                 "source": "https://github.com/php-etl/bucket-contracts/tree/v0.2.0"
             },
             "time": "2023-04-03T12:42:10+00:00"
+        },
+        {
+            "name": "php-etl/satellite-contracts",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-etl/satellite-contracts.git",
+                "reference": "1d2bc6822bfdb3efc6a1f490e706db995c99ef41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-etl/satellite-contracts/zipball/1d2bc6822bfdb3efc6a1f490e706db995c99ef41",
+                "reference": "1d2bc6822bfdb3efc6a1f490e706db995c99ef41",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "rector/rector": "^0.15.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kiboko\\Contract\\Satellite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kiboko SAS",
+                    "homepage": "http://kiboko.fr"
+                },
+                {
+                    "name": "Grégory Planchat",
+                    "email": "gregory@kiboko.fr"
+                }
+            ],
+            "description": "This library describes contracts for defining satellite formats",
+            "support": {
+                "issues": "https://github.com/php-etl/satellite-contracts/issues",
+                "source": "https://github.com/php-etl/satellite-contracts/tree/main"
+            },
+            "time": "2023-04-18T13:53:22+00:00"
         }
     ],
     "packages-dev": [
@@ -539,12 +592,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "9fff1f6b8f3a3f5e1d40542f2950e3c0f6a91c54"
+                "reference": "fa55e8b4d1857d05e160004d686baca2077452b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9fff1f6b8f3a3f5e1d40542f2950e3c0f6a91c54",
-                "reference": "9fff1f6b8f3a3f5e1d40542f2950e3c0f6a91c54",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fa55e8b4d1857d05e160004d686baca2077452b9",
+                "reference": "fa55e8b4d1857d05e160004d686baca2077452b9",
                 "shasum": ""
             },
             "require": {
@@ -594,7 +647,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-17T09:43:16+00:00"
+            "time": "2023-04-18T13:25:33+00:00"
         },
         {
             "name": "psr/cache",
@@ -813,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "03e48b83b11c46744cb850c6df800b3efbf672f5"
+                "reference": "f00ddc261c930a91e1b2fabd4a9d0505d22230b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/03e48b83b11c46744cb850c6df800b3efbf672f5",
-                "reference": "03e48b83b11c46744cb850c6df800b3efbf672f5",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/f00ddc261c930a91e1b2fabd4a9d0505d22230b2",
+                "reference": "f00ddc261c930a91e1b2fabd4a9d0505d22230b2",
                 "shasum": ""
             },
             "require": {
@@ -867,7 +920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-17T12:58:24+00:00"
+            "time": "2023-04-18T11:12:39+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -943,12 +996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "4fabdd5541927ce0d3f593616a798148192281c3"
+                "reference": "ed4997f449c1ba291db0015ea8f2b4f4da9c4311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/4fabdd5541927ce0d3f593616a798148192281c3",
-                "reference": "4fabdd5541927ce0d3f593616a798148192281c3",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ed4997f449c1ba291db0015ea8f2b4f4da9c4311",
+                "reference": "ed4997f449c1ba291db0015ea8f2b4f4da9c4311",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1084,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-14T16:25:38+00:00"
+            "time": "2023-04-18T13:59:59+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1271,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "ebd0ca75299ab3629c4283c28222536c0f3033a6"
+                "reference": "4e236afc2a0fcf446f8e8ca29fe36c6340e798d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/ebd0ca75299ab3629c4283c28222536c0f3033a6",
-                "reference": "ebd0ca75299ab3629c4283c28222536c0f3033a6",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/4e236afc2a0fcf446f8e8ca29fe36c6340e798d2",
+                "reference": "4e236afc2a0fcf446f8e8ca29fe36c6340e798d2",
                 "shasum": ""
             },
             "require": {
@@ -1326,7 +1379,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-02T01:25:41+00:00"
+            "time": "2023-04-18T13:59:59+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1963,12 +2016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "32ac96fb0c7ae1194c9e660701e73d6868469bba"
+                "reference": "198ae32e3c33793e4c029a4dd4b5be4be26bae8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/32ac96fb0c7ae1194c9e660701e73d6868469bba",
-                "reference": "32ac96fb0c7ae1194c9e660701e73d6868469bba",
+                "url": "https://api.github.com/repos/symfony/process/zipball/198ae32e3c33793e4c029a4dd4b5be4be26bae8a",
+                "reference": "198ae32e3c33793e4c029a4dd4b5be4be26bae8a",
                 "shasum": ""
             },
             "require": {
@@ -2016,7 +2069,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-02T01:25:41+00:00"
+            "time": "2023-04-18T13:59:59+00:00"
         },
         {
             "name": "symfony/service-contracts",
