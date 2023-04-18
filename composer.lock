@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
-            "version": "v0.2.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
@@ -28,6 +28,7 @@
                 "phpstan/phpstan": "^1.10",
                 "rector/rector": "^0.15"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -587,16 +588,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.x-dev",
+            "version": "1.11.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ccabc69e97c8d6e866eee5ff8b567aee82643373"
+                "reference": "fa55e8b4d1857d05e160004d686baca2077452b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ccabc69e97c8d6e866eee5ff8b567aee82643373",
-                "reference": "ccabc69e97c8d6e866eee5ff8b567aee82643373",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/fa55e8b4d1857d05e160004d686baca2077452b9",
+                "reference": "fa55e8b4d1857d05e160004d686baca2077452b9",
                 "shasum": ""
             },
             "require": {
@@ -646,7 +647,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-06T09:44:51+00:00"
+            "time": "2023-04-18T13:25:33+00:00"
         },
         {
             "name": "psr/cache",
@@ -865,17 +866,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "5a5da62b5c1efeaae6f20f0d615bec78f6988996"
+                "reference": "f00ddc261c930a91e1b2fabd4a9d0505d22230b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/5a5da62b5c1efeaae6f20f0d615bec78f6988996",
-                "reference": "5a5da62b5c1efeaae6f20f0d615bec78f6988996",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/f00ddc261c930a91e1b2fabd4a9d0505d22230b2",
+                "reference": "f00ddc261c930a91e1b2fabd4a9d0505d22230b2",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.10.1"
+                "phpstan/phpstan": "^1.10.13"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -919,7 +920,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-06T09:24:11+00:00"
+            "time": "2023-04-18T11:12:39+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -995,12 +996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "22139f9c425d2be619ccbf1bdbabbd67d1060c50"
+                "reference": "ed4997f449c1ba291db0015ea8f2b4f4da9c4311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/22139f9c425d2be619ccbf1bdbabbd67d1060c50",
-                "reference": "22139f9c425d2be619ccbf1bdbabbd67d1060c50",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ed4997f449c1ba291db0015ea8f2b4f4da9c4311",
+                "reference": "ed4997f449c1ba291db0015ea8f2b4f4da9c4311",
                 "shasum": ""
             },
             "require": {
@@ -1083,7 +1084,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-04T06:17:48+00:00"
+            "time": "2023-04-18T13:59:59+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1323,12 +1324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "ebd0ca75299ab3629c4283c28222536c0f3033a6"
+                "reference": "4e236afc2a0fcf446f8e8ca29fe36c6340e798d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/ebd0ca75299ab3629c4283c28222536c0f3033a6",
-                "reference": "ebd0ca75299ab3629c4283c28222536c0f3033a6",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/4e236afc2a0fcf446f8e8ca29fe36c6340e798d2",
+                "reference": "4e236afc2a0fcf446f8e8ca29fe36c6340e798d2",
                 "shasum": ""
             },
             "require": {
@@ -1378,7 +1379,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-02T01:25:41+00:00"
+            "time": "2023-04-18T13:59:59+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2015,12 +2016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "32ac96fb0c7ae1194c9e660701e73d6868469bba"
+                "reference": "198ae32e3c33793e4c029a4dd4b5be4be26bae8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/32ac96fb0c7ae1194c9e660701e73d6868469bba",
-                "reference": "32ac96fb0c7ae1194c9e660701e73d6868469bba",
+                "url": "https://api.github.com/repos/symfony/process/zipball/198ae32e3c33793e4c029a4dd4b5be4be26bae8a",
+                "reference": "198ae32e3c33793e4c029a4dd4b5be4be26bae8a",
                 "shasum": ""
             },
             "require": {
@@ -2068,7 +2069,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-02T01:25:41+00:00"
+            "time": "2023-04-18T13:59:59+00:00"
         },
         {
             "name": "symfony/service-contracts",
