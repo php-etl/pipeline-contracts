@@ -11,5 +11,7 @@ interface RejectionInterface
     /** @param non-empty-array<mixed>|object $rejection */
     public function reject(object|array $rejection, null|\Throwable $exception = null): void;
 
+    public function rejectWithReason(Rejection $rejection): void;
+
     public function teardown(): void;
 }

@@ -17,6 +17,11 @@ final class NullRejection implements RejectionInterface
         // NOOP
     }
 
+    public function rejectWithReason(Rejection $rejection): void
+    {
+        // NOOP
+    }
+
     public function teardown(): void
     {
         // NOOP
