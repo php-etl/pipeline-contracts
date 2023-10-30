@@ -7,6 +7,4 @@ namespace Kiboko\Contract\Pipeline;
 use Kiboko\Contract\Satellite\RunnableInterface as SatelliteRunableInterface;
 
 /** @deprecated Use \Kiboko\Contract\Job\RunnableInterface instead */
-interface RunnableInterface extends SatelliteRunableInterface
-{
-}
+interface RunnableInterface extends SatelliteRunableInterface {}
