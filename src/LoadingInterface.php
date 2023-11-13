@@ -12,8 +12,9 @@ interface LoadingInterface
      * @param LoaderInterface<Type> $loader
      */
     public function load(
+        StepCodeInterface $step,
         LoaderInterface $loader,
-        RejectionInterface $rejection,
-        StateInterface $state,
+        StepRejectionInterface $rejection,
+        StepStateInterface $state,
     ): self;
 }
