@@ -9,7 +9,7 @@ interface RejectionInterface
     public function initialize(): void;
 
     /** @param non-empty-array<mixed>|object $rejection */
-    public function reject(object|array $rejection, null|\Throwable $exception = null): void;
+    public function reject(array|object $rejection, \Throwable $exception = null, string $reason = null): void;
 
     public function teardown(): void;
 }
