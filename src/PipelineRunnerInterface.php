@@ -20,7 +20,7 @@ interface PipelineRunnerInterface
     public function run(
         \Iterator $source,
         \Generator $async,
-        RejectionInterface $rejection,
-        StateInterface $state,
+        StepRejectionInterface $rejection,
+        StepStateInterface $state,
     ): \Iterator;
 }
