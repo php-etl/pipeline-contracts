@@ -12,10 +12,10 @@ use Kiboko\Contract\Bucket\ResultBucketInterface;
 interface PipelineRunnerInterface
 {
     /**
-     * @param \Iterator<int, array|object>                               $source
+     * @param \Iterator<int, non-empty-array<array-key, mixed>|object> $source
      * @param \Generator<mixed, Type, ResultBucketInterface<Type>, void> $async
      *
-     * @return \Iterator<array|object>
+     * @return \Iterator<non-empty-array<array-key, mixed>|object>
      */
     public function run(
         \Iterator $source,

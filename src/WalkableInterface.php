@@ -6,6 +6,6 @@ namespace Kiboko\Contract\Pipeline;
 
 interface WalkableInterface
 {
-    /** @return \Iterator<array|object> */
+    /** @return \Iterator<non-empty-array<array-key, mixed>|object> */
     public function walk(): \Iterator;
 }

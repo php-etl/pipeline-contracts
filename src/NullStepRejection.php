@@ -11,6 +11,7 @@ final class NullStepRejection implements StepRejectionInterface
         // NOOP
     }
 
+    /** @param non-empty-array<array-key, mixed>|object $rejection */
     public function rejectWithReason(array|object $rejection, string $reason, \Throwable $exception = null): void
     {
         // NOOP
