@@ -4,18 +4,19 @@ declare(strict_types=1);
 
 namespace Kiboko\Contract\Pipeline;
 
+use Kiboko\Contract\Bucket\AcceptanceResultBucketInterface;
+use Kiboko\Contract\Bucket\RejectionResultBucketInterface;
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
-/**
- * @template Type
- */
 interface PipelineRunnerInterface
 {
     /**
-     * @param \Iterator<int, non-empty-array<array-key, mixed>|object> $source
-     * @param \Generator<mixed, Type, ResultBucketInterface<Type>, void> $async
+     * @template Type
      *
-     * @return \Iterator<non-empty-array<array-key, mixed>|object>
+     * @param \Iterator<int, Type|null> $source
+     * @param \Generator<int, ResultBucketInterface<Type>&(AcceptanceResultBucketInterface<Type>|RejectionResultBucketInterface<Type>), Type|null, void> $async
+     *
+     * @return \Iterator<int, ResultBucketInterface<Type|null>>
      */
     public function run(
         \Iterator $source,
