@@ -7,9 +7,10 @@ namespace Kiboko\Contract\Pipeline;
 interface LoadingInterface
 {
     /**
-     * @template Type
+     * @template InputType
+     * @template OutputType
      *
-     * @param LoaderInterface<Type> $loader
+     * @param LoaderInterface<InputType, OutputType> $loader
      */
     public function load(
         StepCodeInterface $step,

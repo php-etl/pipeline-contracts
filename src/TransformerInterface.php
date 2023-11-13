@@ -6,13 +6,16 @@ namespace Kiboko\Contract\Pipeline;
 
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
-/** @template Type */
+/**
+ * @template InputType
+ * @template OutputType
+ */
 interface TransformerInterface
 {
     /**
      * Transforms the data from one format to another.
      *
-     * @return \Generator<mixed, ResultBucketInterface<Type>|ResultBucketInterface<void>, Type|null, void>
+     * @return \Generator<mixed, ResultBucketInterface<OutputType>|ResultBucketInterface<void>, InputType|null, void>
      */
     public function transform(): \Generator;
 }

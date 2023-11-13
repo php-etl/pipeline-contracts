@@ -7,9 +7,9 @@ namespace Kiboko\Contract\Pipeline;
 interface ExtractingInterface
 {
     /**
-     * @template Type
+     * @template OutputType
      *
-     * @param ExtractorInterface<Type> $extractor
+     * @param ExtractorInterface<OutputType> $extractor
      */
     public function extract(
         StepCodeInterface $step,

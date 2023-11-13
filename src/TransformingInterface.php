@@ -7,9 +7,10 @@ namespace Kiboko\Contract\Pipeline;
 interface TransformingInterface
 {
     /**
-     * @template Type
+     * @template InputType
+     * @template OutputType
      *
-     * @param TransformerInterface<Type> $transformer
+     * @param TransformerInterface<InputType, OutputType> $transformer
      */
     public function transform(
         StepCodeInterface $step,

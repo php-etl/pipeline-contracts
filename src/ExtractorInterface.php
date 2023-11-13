@@ -6,13 +6,13 @@ namespace Kiboko\Contract\Pipeline;
 
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
-/** @template Type */
+/** @template OutputType */
 interface ExtractorInterface
 {
     /**
      * Extract data from the given source.
      *
-     * @return iterable<int, ResultBucketInterface<Type|null>>
+     * @return iterable<int, ResultBucketInterface<OutputType|null>>
      */
     public function extract(): iterable;
 }
