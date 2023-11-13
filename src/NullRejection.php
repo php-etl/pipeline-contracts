@@ -17,6 +17,11 @@ final class NullRejection implements RejectionInterface
         // NOOP
     }
 
+    public function rejectWithReason(StepCodeInterface $step, object|array $rejection, string $reason, \Throwable $exception = null): void
+    {
+        // NOOP
+    }
+
     public function teardown(): void
     {
         // NOOP
