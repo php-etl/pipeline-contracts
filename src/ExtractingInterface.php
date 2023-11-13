@@ -12,8 +12,9 @@ interface ExtractingInterface
      * @param ExtractorInterface<Type> $extractor
      */
     public function extract(
+        StepCodeInterface $step,
         ExtractorInterface $extractor,
-        RejectionInterface $rejection,
-        StateInterface $state,
+        StepRejectionInterface $rejection,
+        StepStateInterface $state,
     ): self;
 }

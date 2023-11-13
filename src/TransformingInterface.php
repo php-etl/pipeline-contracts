@@ -12,8 +12,9 @@ interface TransformingInterface
      * @param TransformerInterface<Type> $transformer
      */
     public function transform(
+        StepCodeInterface $step,
         TransformerInterface $transformer,
-        RejectionInterface $rejection,
-        StateInterface $state,
+        StepRejectionInterface $rejection,
+        StepStateInterface $state,
     ): self;
 }
