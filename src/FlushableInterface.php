@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Kiboko\Contract\Pipeline;
 
+use Kiboko\Component\Bucket\EmptyResultBucket;
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
 /**
@@ -11,6 +12,6 @@ use Kiboko\Contract\Bucket\ResultBucketInterface;
  */
 interface FlushableInterface
 {
-    /** @return ResultBucketInterface<Type> */
+    /** @return ResultBucketInterface<Type>|EmptyResultBucket */
     public function flush(): ResultBucketInterface;
 }
