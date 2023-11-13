@@ -11,7 +11,7 @@ interface RejectionInterface
     /** @param non-empty-array<mixed>|object $rejection */
     public function reject(StepCodeInterface $step, array|object $rejection, \Throwable $exception = null): void;
 
-    public function rejectWithReason(StepCodeInterface $step, object|array $rejection, string $reason, null|\Throwable $exception = null): void;
+    public function rejectWithReason(StepCodeInterface $step, array|object $rejection, string $reason, \Throwable $exception = null): void;
 
     public function teardown(): void;
 }
