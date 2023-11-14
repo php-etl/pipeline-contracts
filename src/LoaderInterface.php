@@ -15,7 +15,7 @@ interface LoaderInterface
     /**
      * Loads data in the given sink.
      *
-     * @return \Generator<mixed, ResultBucketInterface<OutputType>, InputType, void>
+     * @return \Generator<positive-int, ResultBucketInterface<OutputType>, InputType|null, void>
      */
     public function load(): \Generator;
 }
