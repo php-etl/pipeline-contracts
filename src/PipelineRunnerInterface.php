@@ -11,12 +11,14 @@ use Kiboko\Contract\Bucket\ResultBucketInterface;
 interface PipelineRunnerInterface
 {
     /**
-     * @template Type of non-empty-array<array-key, mixed>|object
+     * @template InputType of non-empty-array<array-key, mixed>|object
+     * @template OutputType of non-empty-array<array-key, mixed>|object
      *
-     * @param \Iterator<int, Type|null> $source
-     * @param \Generator<int, ResultBucketInterface<Type>&(AcceptanceResultBucketInterface<Type>|RejectionResultBucketInterface<Type>), Type|null, void> $async
-     *
-     * @return \Iterator<int, ResultBucketInterface<Type|null>>
+     * @param \Iterator<int, InputType|null> $source
+     * @param \Generator<int, (ResultBucketInterface<OutputType>&(AcceptanceResultBucketInterface<InputType>|RejectionResultBucketInterface<InputType>))|null, InputType, void> $coroutine
+     * @param StepRejectionInterface<InputType> $rejection
+     * @param StepStateInterface $state
+     * @return \Iterator<int, ResultBucketInterface<OutputType|null>>
      */
     public function run(
         \Iterator $source,
