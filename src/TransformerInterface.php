@@ -15,7 +15,7 @@ interface TransformerInterface
     /**
      * Transforms the data from one format to another.
      *
-     * @return \Generator<mixed, ResultBucketInterface<OutputType>|ResultBucketInterface<void>, InputType|null, void>
+     * @return \Generator<mixed, ResultBucketInterface<OutputType>, InputType, void>
      */
     public function transform(): \Generator;
 }
