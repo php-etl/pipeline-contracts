@@ -6,7 +6,7 @@ namespace Kiboko\Contract\Pipeline;
 
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
-/** @template OutputType of non-empty-array<array-key, mixed>|object */
+/** @template OutputType */
 interface ExtractorInterface
 {
     /**

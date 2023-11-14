@@ -7,8 +7,8 @@ namespace Kiboko\Contract\Pipeline;
 interface LoadingInterface
 {
     /**
-     * @template InputType of non-empty-array<array-key, mixed>|object
-     * @template OutputType of non-empty-array<array-key, mixed>|object
+     * @template InputType
+     * @template OutputType
      *
      * @param LoaderInterface<InputType, OutputType> $loader
      */

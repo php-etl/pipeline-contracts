@@ -7,8 +7,8 @@ namespace Kiboko\Contract\Pipeline;
 interface TransformingInterface
 {
     /**
-     * @template InputType of non-empty-array<array-key, mixed>|object
-     * @template OutputType of non-empty-array<array-key, mixed>|object
+     * @template InputType
+     * @template OutputType
      *
      * @param TransformerInterface<InputType, OutputType> $transformer
      */

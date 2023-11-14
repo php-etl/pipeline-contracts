@@ -9,8 +9,8 @@ use Kiboko\Contract\Bucket\ResultBucketInterface;
 interface PipelineRunnerInterface
 {
     /**
-     * @template InputType of non-empty-array<array-key, mixed>|object
-     * @template OutputType of non-empty-array<array-key, mixed>|object
+     * @template InputType
+     * @template OutputType
      *
      * @param \Iterator<positive-int, InputType|null> $source
      * @param \Generator<int, ResultBucketInterface<InputType>, InputType|null, void> $coroutine

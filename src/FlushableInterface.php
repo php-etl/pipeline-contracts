@@ -7,7 +7,7 @@ namespace Kiboko\Contract\Pipeline;
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
 /**
- * @template Type of non-empty-array<array-key, mixed>|object
+ * @template Type
  */
 interface FlushableInterface
 {
