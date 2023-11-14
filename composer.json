@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "php-etl/bucket-contracts": "0.2.*",
+        "php-etl/bucket-contracts": "0.3.*",
         "php-etl/satellite-contracts": "0.1.*"
     },
     "require-dev": {
