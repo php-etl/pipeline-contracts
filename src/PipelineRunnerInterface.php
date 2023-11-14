@@ -13,9 +13,8 @@ interface PipelineRunnerInterface
      * @template OutputType
      *
      * @param \Iterator<int, InputType|null> $source
-     * @param \Generator<int, ResultBucketInterface<InputType>, InputType|null, void> $coroutine
-     * @param StepRejectionInterface<InputType> $rejection
-     * @param StepStateInterface $state
+     * @param StepRejectionInterface<InputType|null> $rejection
+     *
      * @return \Iterator<int, ResultBucketInterface<OutputType>|null>
      */
     public function run(

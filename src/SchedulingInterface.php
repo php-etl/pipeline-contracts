@@ -8,5 +8,5 @@ use Kiboko\Contract\Satellite\RunnableInterface;
 
 interface SchedulingInterface
 {
-    public function job(RunnableInterface $job): self;
+    public function job(JobCodeInterface $job, RunnableInterface $job): self;
 }
