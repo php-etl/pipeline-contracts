@@ -7,15 +7,15 @@ namespace Kiboko\Contract\Pipeline;
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
 /**
- * @template InputType
- * @template OutputType
+ * @template InputType of non-empty-array<array-key, mixed>|object
+ * @template OutputType of non-empty-array<array-key, mixed>|object
  */
 interface LoaderInterface
 {
     /**
      * Loads data in the given sink.
      *
-     * @return \Generator<mixed, ResultBucketInterface<OutputType>|ResultBucketInterface<void>, InputType|null, void>
+     * @return \Generator<mixed, ResultBucketInterface<OutputType>, InputType|null, void>
      */
     public function load(): \Generator;
 }

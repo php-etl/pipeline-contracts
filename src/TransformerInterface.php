@@ -7,8 +7,8 @@ namespace Kiboko\Contract\Pipeline;
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
 /**
- * @template InputType
- * @template OutputType
+ * @template InputType of non-empty-array<array-key, mixed>|object
+ * @template OutputType of non-empty-array<array-key, mixed>|object
  */
 interface TransformerInterface
 {

@@ -7,7 +7,7 @@ namespace Kiboko\Contract\Pipeline;
 interface ExtractingInterface
 {
     /**
-     * @template OutputType
+     * @template OutputType of non-empty-array<array-key, mixed>|object
      *
      * @param ExtractorInterface<OutputType> $extractor
      */
