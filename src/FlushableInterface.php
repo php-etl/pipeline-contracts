@@ -8,7 +8,7 @@ use Kiboko\Component\Bucket\EmptyResultBucket;
 use Kiboko\Contract\Bucket\ResultBucketInterface;
 
 /**
- * @template Type
+ * @template Type of non-empty-array<array-key, mixed>|object
  */
 interface FlushableInterface
 {

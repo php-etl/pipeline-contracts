@@ -11,7 +11,7 @@ use Kiboko\Contract\Bucket\ResultBucketInterface;
 interface PipelineRunnerInterface
 {
     /**
-     * @template Type
+     * @template Type of non-empty-array<array-key, mixed>|object
      *
      * @param \Iterator<int, Type|null> $source
      * @param \Generator<int, ResultBucketInterface<Type>&(AcceptanceResultBucketInterface<Type>|RejectionResultBucketInterface<Type>), Type|null, void> $async
