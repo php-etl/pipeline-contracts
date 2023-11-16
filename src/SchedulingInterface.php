@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace Kiboko\Contract\Pipeline;
 
+use Kiboko\Contract\Satellite\CodeInterface;
 use Kiboko\Contract\Satellite\RunnableInterface;
 
 interface SchedulingInterface
 {
-    public function job(JobCodeInterface $job, RunnableInterface $runnable): self;
+    public function job(CodeInterface $job, RunnableInterface $runnable): self;
 }
