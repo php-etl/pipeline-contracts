@@ -2,12 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kiboko\Contract\Pipeline;
+trigger_deprecation('php-etl/pipeline-contracts', '0.5', 'The "%s" class is deprecated, use "%s" instead.', 'Kiboko\\Contract\\Pipeline\\SchedulingInterface', \Kiboko\Contract\Satellite\SchedulingInterface::class);
 
-use Kiboko\Contract\Satellite\CodeInterface;
-use Kiboko\Contract\Satellite\RunnableInterface;
-
-interface SchedulingInterface
-{
-    public function job(CodeInterface $job, RunnableInterface $runnable): self;
-}
+/*
+ * @deprecated since Satellite 0.2, use Kiboko\Contract\Satellite\SchedulingInterface instead.
+ */
+class_alias(\Kiboko\Contract\Satellite\SchedulingInterface::class, 'Kiboko\\Contract\\Pipeline\\SchedulingInterface');
