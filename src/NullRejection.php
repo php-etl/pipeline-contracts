@@ -12,13 +12,13 @@ final class NullRejection implements RejectionInterface
     }
 
     /** @param non-empty-array<array-key, mixed>|object $rejection */
-    public function reject(StepCodeInterface $step, array|object $rejection, \Throwable $exception = null, string $reason = null): void
+    public function reject(StepCodeInterface $step, array|object $rejection, ?\Throwable $exception = null, ?string $reason = null): void
     {
         // NOOP
     }
 
     /** @param non-empty-array<array-key, mixed>|object $rejection */
-    public function rejectWithReason(StepCodeInterface $step, array|object $rejection, string $reason, \Throwable $exception = null): void
+    public function rejectWithReason(StepCodeInterface $step, array|object $rejection, string $reason, ?\Throwable $exception = null): void
     {
         // NOOP
     }
