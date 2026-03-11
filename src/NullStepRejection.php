@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Kiboko\Contract\Pipeline;
 
+/**
+ * @implements StepRejectionInterface<array<string, mixed>|object>
+ */
 final class NullStepRejection implements StepRejectionInterface
 {
     public function reject(array|object $rejection, ?\Throwable $exception = null): void

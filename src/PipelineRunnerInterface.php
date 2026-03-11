@@ -13,7 +13,8 @@ interface PipelineRunnerInterface
      * @template OutputType
      *
      * @param \Iterator<int, InputType|null> $source
-     * @param StepRejectionInterface<InputType|null> $rejection
+     * @param \Generator<mixed, mixed, mixed, iterable<ResultBucketInterface<OutputType>|null>> $async
+     * @param StepRejectionInterface<array<string, mixed>|object> $rejection
      *
      * @return \Iterator<int, ResultBucketInterface<OutputType>|null>
      */
