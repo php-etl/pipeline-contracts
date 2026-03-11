@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92e48c86dd7acf921450d1b00dd1bdb2",
+    "content-hash": "5feaab66f1ba785eae8d0e87372f6525",
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
-                "reference": "b7ae77715e5c5e163239a3122cedc3de1a631a09"
+                "reference": "ecd7e0c901a5b5557828eb8ade9358449bf7d260"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/b7ae77715e5c5e163239a3122cedc3de1a631a09",
-                "reference": "b7ae77715e5c5e163239a3122cedc3de1a631a09",
+                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/ecd7e0c901a5b5557828eb8ade9358449bf7d260",
+                "reference": "ecd7e0c901a5b5557828eb8ade9358449bf7d260",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,7 @@
                 "issues": "https://github.com/php-etl/bucket-contracts/issues",
                 "source": "https://github.com/php-etl/bucket-contracts/tree/main"
             },
-            "time": "2026-03-11T01:36:54+00:00"
+            "time": "2026-03-11T13:39:28+00:00"
         },
         {
             "name": "php-etl/satellite-contracts",
@@ -621,8 +621,8 @@
             "version": "2.2.x-dev",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4a1379b1e4a1b0fe04ab20efc25a473a359e1e12",
-                "reference": "4a1379b1e4a1b0fe04ab20efc25a473a359e1e12",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/940f86766c7a7214f00452005f48dea3999db82a",
+                "reference": "940f86766c7a7214f00452005f48dea3999db82a",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +668,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-11T13:18:18+00:00"
+            "time": "2026-03-11T16:56:35+00:00"
         },
         {
             "name": "psr/container",
