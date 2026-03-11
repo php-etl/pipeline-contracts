@@ -11,6 +11,7 @@ interface TransformingInterface
      * @template OutputType
      *
      * @param TransformerInterface<InputType, OutputType> $transformer
+     * @param StepRejectionInterface<array<string, mixed>|object> $rejection
      */
     public function transform(
         StepCodeInterface $step,

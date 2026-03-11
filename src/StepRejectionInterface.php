@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Kiboko\Contract\Pipeline;
 
 /**
- * @template Type
+ * @template Type of array<string, mixed>|object
  */
 interface StepRejectionInterface
 {

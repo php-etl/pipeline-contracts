@@ -10,6 +10,7 @@ interface ExtractingInterface
      * @template OutputType
      *
      * @param ExtractorInterface<OutputType> $extractor
+     * @param StepRejectionInterface<array<string, mixed>|object> $rejection
      */
     public function extract(
         StepCodeInterface $step,

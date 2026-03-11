@@ -11,6 +11,7 @@ interface LoadingInterface
      * @template OutputType
      *
      * @param LoaderInterface<InputType, OutputType> $loader
+     * @param StepRejectionInterface<array<string, mixed>|object> $rejection
      */
     public function load(
         StepCodeInterface $step,
